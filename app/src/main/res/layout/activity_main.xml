@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/globePic"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="12dp"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GEOGRAPHY QUIZ"
+        android:layout_margin="12dp"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="This app is for practicing and improving your knowledge of countries and their home continents. With the app, you will be able to take random quizzes, and then view the quizzes and their results and check your previous scores, to see how you've improved    "
+        android:textAlignment="center"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/newQuizButton"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Start a New Quiz!" />
+
+    <Button
+        android:id="@+id/pastQuizButton"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See Past Quizzes!" />
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:id="@+id/names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created by Shubhan Kadam and Preston Lowry"
+        android:textSize="18dp"  />
+
+</LinearLayout>
